@@ -1,6 +1,6 @@
 # isochrone_osm_map_in_R
 
-I generally don't create GithHub repositories on demand, but yesterday I published a map on BlueSky and Michel Friendly asked about the blended color palette I have used. 
+I generally don't create GithHub repositories on demand, but yesterday (23/01/2025) I published a map on BlueSky  [(see it here)](https://bsky.app/profile/juangaleano.bsky.social/post/3lgf4acl2yc2t) and Michel Friendly asked about the blended color palette I have used. 
 I have used articles and materials from Dr. Friendly in my dataviz and Digital Cartography classes so many times, that it's impossible to say no in this case.
 
 You can see the map in question below.
@@ -58,13 +58,9 @@ The first thing you will need to do is to sign up and login in [Openroutservice]
 
 **Step 8:** Get streets data from Open Street Maps for your area of referecence. And extract the data into a sf object. 
 
+**Step 9:** Crop the streets map by intersecting them with the isochrone layer.
 
-
-
-
-
-
-
+**Step 10:** plot your final map combining OSM data on the street of Bangkok with the isochrone sf object
 
 
 
