@@ -5,4 +5,4 @@ I have used articles and materials from Dr. Friendly in my dataviz and Digital C
 
 
 ## FIG 1:  Missing people crude rates by departments, Colombia 1985-2018     
-![alt text](https://github.com/JuanGaleano/ARMED_CONFLICT_COLOMBIA-/blob/main/6_LINE_DES_FACET_DEPTO.png)     
+![alt text](https://github.com/JuanGaleano/isochrone_osm_map_in_R/blob/main/12_osm_isochrone_2.png)     
