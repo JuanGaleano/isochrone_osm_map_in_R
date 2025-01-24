@@ -5,7 +5,6 @@ I have used articles and materials from Dr. Friendly in my dataviz and Digital C
 
 You can see the map in question below.
 
-## FIG 1:  Walking distance from my hotel in Bangkok    
 ![alt text](https://github.com/JuanGaleano/isochrone_osm_map_in_R/blob/main/12_osm_isochrone_2.png)     
 
 ## Context 
@@ -13,6 +12,7 @@ You can see the map in question below.
 Every year I teach a course in Harbour Space university, in Bangkok, called "From Data to Knowledge". The course is devote to introduce bachelor and master students in Data Science to some of the most common techniques for visualizing statistical data and producing Digital Cartgoraphy. In session 8 we review how to access Open Street Maps data from R, how to geocode indformation and how to access the OpenRouteService from OSM. 
 
 ## Here you have a gpt-generated explanation of what is OpenRouteService     
+
 OpenRouteService (ORS) is a powerful open-source routing platform that provides route planning and geospatial analysis services. It is built on top of OpenStreetMap (OSM) data and is designed for developers, researchers, and organizations that need routing and geospatial functionalities. Here are its main features and applications:
 
 **Main Features**     
@@ -36,3 +36,6 @@ ORS is powered by OpenStreetMap, which provides free and up-to-date geographic d
 The platform offers an API for integration into custom applications or workflows.
 It can be accessed through their web interface or installed locally for private use.
 
+## How to buid and isochrone map combined with Open Street map data
+
+The first thing you need to do sign up and login in [Openroutservice](https://openrouteservice.org/)
