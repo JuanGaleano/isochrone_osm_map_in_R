@@ -36,6 +36,27 @@ ORS is powered by OpenStreetMap, which provides free and up-to-date geographic d
 The platform offers an API for integration into custom applications or workflows.
 It can be accessed through their web interface or installed locally for private use.
 
-## How to buid and isochrone map combined with Open Street map data
+## How to build and isochrone map combined with Open Street map data
 
-The first thing you need to do sign up and login in [Openroutservice](https://openrouteservice.org/)
+The first thing you will need to do is to sign up and login in [Openroutservice](https://openrouteservice.org/). Once you have an account you need to get and api-key to use in your R session. 
+
+**Step 1:** Set a starting point. For the present map I'm using the location coordinates of the [Staybridge Suites Bangkok Thonglor Hotel](https://www.ihg.com/staybridge/hotels/us/en/bangkok/bkkth/hoteldetail?cm_mmc=GoogleMaps-_-SB-_-TH-_-BKKTH), where I stay while in Bangkok.       
+
+**Step 2:** Create a sf isochrone object using the location coordinates and setting a profile (foot-walking), range, interval and output. Also convert the values into minutes within a factor vector.        
+
+**Step 3:** Crop your sf isochrone layer.    
+
+**Step 4** Get a map tile of the reference area.        
+
+**Step 5:** Create a color palette with the same lenght as intervals you have in the sf isochrone object.       
+
+
+
+
+
+
+
+
+
+
+
