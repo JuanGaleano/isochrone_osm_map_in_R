@@ -50,6 +50,15 @@ The first thing you will need to do is to sign up and login in [Openroutservice]
 
 **Step 5:** Create a color palette with the same lenght as intervals you have in the sf isochrone object.       
 
+**Step 6:** You can plot a first version of the isochrone map. It will look like the following image. 
+
+![alt text](https://github.com/JuanGaleano/isochrone_osm_map_in_R/blob/main/9_isochrone_walking.png)   
+
+**Step 7:** Before accesing OSM data, check if you have invalid geometries in your sf isochrone object. And fix them if that's the case.       
+
+**Step 8:** Get streets data from Open Street Maps for your area of referecence. And extract the data into a sf object. 
+
+
 
 
 
