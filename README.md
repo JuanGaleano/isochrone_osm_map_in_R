@@ -1,7 +1,7 @@
-# isochrone_osm_map_in_R
+# Combining isochrones and Open Street Map (OSM) in R
 
-I generally don't create GithHub repositories on demand, but yesterday (23/01/2025) I published a map on BlueSky  [(see it here)](https://bsky.app/profile/juangaleano.bsky.social/post/3lgf4acl2yc2t) and Michel Friendly asked about the blended color palette I have used. 
-I have used articles and materials from Dr. Friendly in my dataviz and Digital Cartography classes so many times, that it's impossible to say no in this case.
+Yesterday (23/01/2025) I published a map on BlueSky  [(see it here)](https://bsky.app/profile/juangaleano.bsky.social/post/3lgf4acl2yc2t) and Michel Friendly asked about the blended color palette I have used. 
+I generally don't create GithHub repositories on demand but, I have used articles and materials from Dr. Friendly in my dataviz and Digital Cartography classes so many times, that in this case, I felt obligated to provide an answer.
 
 You can see the map in question below.
 
@@ -9,7 +9,7 @@ You can see the map in question below.
 
 ## Context 
 
-Every year I teach a course in Harbour Space university, in Bangkok, called "From Data to Knowledge". The course is devote to introduce bachelor and master students in Data Science to some of the most common techniques for visualizing statistical data and producing Digital Cartgoraphy. In session 8 we review how to access Open Street Maps data from R, how to geocode indformation and how to access the OpenRouteService from OSM. 
+Every year I teach a course at [Harbour Space University](https://harbour.space/), in Bangkok and Barcelona, called "From Data to Knowledge". The course is devote to introduce bachelor and master students in Data Science to some of the most common techniques for visualizing statistical data and producing Digital Cartgoraphy. In session 8 we review how to access Open Street Maps data from R, how to geocode indformationm how to access the OpenRouteService from OSM and how to create isochrones. 
 
 ## Here you have a gpt-generated explanation of what is OpenRouteService     
 
@@ -62,6 +62,5 @@ The first thing you will need to do is to sign up and login in [Openroutservice]
 
 **Step 10:** plot your final map combining OSM data on the street of Bangkok with the isochrone sf object
 
-
-
+You can run the R code of this repository to create the same map. 
 
